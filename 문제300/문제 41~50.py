@@ -2,13 +2,13 @@
 
 # 041.
 ticker = "btc_krw"
-대문자 = ticker.upper()
-print(대문자)
+print(ticker.upper())
+
 
 # 042.
 ticker = "BTC_KRW"
-소문자 = ticker.lower()
-print(소문자)
+print(ticker.lower())
+
 
 # 043.
 문자열 = "hello"
@@ -16,18 +16,18 @@ print( 문자열.capitalize() )
 
 # 044.
 file_name = "보고서.xlsx"
-확인 = file_name.endswith("xlsx")
-print(확인)
+print(file_name.endswith("xlsx"))
+
 
 # 045.
 file_name = "보고서.xlsx"
-확인 = file_name.endswith("xlsx")
-print(확인)
+print(file_name.endswith(("xlsx","xls")))
+
 
 # 046.
 file_name = "2020_보고서.xlsx"
-확인 = file_name.startswith("2020")
-print(확인)
+print(file_name.startswith("2020"))
+
 
 # 047.
 a = "hello world"
