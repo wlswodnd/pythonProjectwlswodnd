@@ -12,8 +12,7 @@ print(소문자)
 
 # 043.
 문자열 = "hello"
-변환 = 문자열[0].upper()
-print(변환+문자열[1:5])
+print( 문자열.capitalize() )
 
 # 044.
 file_name = "보고서.xlsx"
