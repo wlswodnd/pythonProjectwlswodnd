@@ -26,7 +26,7 @@ phone_number = "010-1111-2222"
 끝 = phone_number.split("-")
 print(끝[0]+끝[1]+끝[2])
 
-# 027.
+# 027. 분리 함수
 url = "http://sharebook.kr"
 도메인 = url.split(".")
 print(도메인[1])
@@ -36,7 +36,7 @@ print(도메인[1])
 # lang[0] = 'P'
 # print(lang)
 # 예상 결과
-# 오류가 남
+# 오류가 남 일부분은 수정 할 수 없음
 
 # 029.
 string = "abcdef2a354a32a"

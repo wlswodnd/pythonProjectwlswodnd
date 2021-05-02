@@ -26,22 +26,14 @@ nums = [1,2,3,4,5,6,7]
 print(max(nums));print(min(nums))
 
 # 058.
-총합 = 0
 nums = [1,2,3,4,5]
-for 반복 in nums :
-    총합 += 반복
-print(총합)
+print(sum(nums))
 
 # 059.
 개수 = 0
 cook = ["피자","김밥","만두","양념치킨","족발","피자","김치만두","쫄면","쏘세지","라면","팥빙수","김치전"]
-for 반복 in cook :
-    개수 += 1
-print(개수)
+print(len(cook))
 
 # 060.
-합계 = 0
 nums = [1,2,3,4,5]
-for 반복 in nums :
-    합계 += 반복
-print(합계/5)
+print(sum(nums)/len(nums))
