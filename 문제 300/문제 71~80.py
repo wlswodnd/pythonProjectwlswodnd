@@ -41,7 +41,9 @@ print(a,b,c)
 # 080.
 짝수 = []
 홀짝 = 0
-for 반복 in range(100) :
-    홀짝 +=1
-    if 홀짝/2 == 0 :
+for 홀짝 in range(101) :
+    print(홀짝)
+    if 홀짝%2 == 0 :
       짝수.append(홀짝)
+튜플 = tuple(짝수)
+print(튜플)
