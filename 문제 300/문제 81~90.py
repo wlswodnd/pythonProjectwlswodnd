@@ -1,22 +1,20 @@
 # 딕셔너리
 
 # 081.
+valid_score = []
 scores = [8.8,8.9,8.7,9.2,9.3,9.7,9.9,9.5,7.8,9.4]
-*a,b = scores
-*c,d = a
-valid_score = c
+*scores,_,_ = scores
+valid_score = scores
 
 # 082.
 scores = [8.8,8.9,8.7,9.2,9.3,9.7,9.9,9.5,7.8,9.4]
-a,*b = scores
-c,*d = b
-valid_score = d
+_,_,*scores = scores
+valid_score = scores
 
 # 083.
 scores = [8.8,8.9,8.7,9.2,9.3,9.7,9.9,9.5,7.8,9.4]
-*a,b = scores
-c,*d = a
-valid_score = d
+_,*scores,_ = scores
+valid_score = scores
 
 # 084.
 temp = {}
