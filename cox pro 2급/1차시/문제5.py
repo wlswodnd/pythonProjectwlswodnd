@@ -7,9 +7,7 @@ def solution(arr) :
     while left < right :
         arr[left], arr[right] = arr[right],arr[left]
         left += 1
-        print( left )
         right -= 1
-        print( right )
     return arr
 
 arr = [1,4,2,3]
