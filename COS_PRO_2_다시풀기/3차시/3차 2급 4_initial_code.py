@@ -4,15 +4,10 @@
 def solution(words, word):
     #여기에 코드를 작성해주세요.
     count = 0
-    for i in words:
-        if i[0] != word[0]:
-            count += 1
-        if i[1] != word[1]:
-            count += 1
-        if i[2] != word[2]:
-            count += 1
-        if i[3] != word[3]:
-            count += 1
+    for a in words:
+        for i in range(4):
+            if a[0+i] != word[0+i]:
+                count += 1
     return count
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.

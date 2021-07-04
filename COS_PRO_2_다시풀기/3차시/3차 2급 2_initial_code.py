@@ -1,4 +1,4 @@
-def func_a(current_grade, last_grade, rank, max_diff_grade):
+def func_a(current_grade, last_grade, rank, max_diff_grade):    # 장학금 조건
     arr_length = len(current_grade)
     count = 0
     for i in range(arr_length):
@@ -26,9 +26,9 @@ def func_c(current_grade, last_grade):
     return max_diff_grade
 
 def solution(current_grade, last_grade):
-    rank = func_@@@(@@@)
-    max_diff_grade = func_@@@(@@@)
-    answer = func_@@@(@@@)
+    rank = func_b(current_grade)
+    max_diff_grade = func_c(current_grade,last_grade)
+    answer = func_a(current_grade,last_grade,rank,max_diff_grade)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.

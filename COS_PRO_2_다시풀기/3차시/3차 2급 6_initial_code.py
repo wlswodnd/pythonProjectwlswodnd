@@ -1,7 +1,7 @@
 def solution(tile_length):
     answer = ''
     com = 'RRRGGB'
-    if tile_length%6 == 1 or tile_length%6 == 2 or tile_length%6 == 3:
+    if tile_length%6 == 1 or tile_length%6 == 2 or tile_length%6 == 4:
         answer = '-1'
     else:
         for i in range(tile_length):

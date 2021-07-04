@@ -12,9 +12,8 @@ def solution(num_apple, num_carrot, k):
     i = 0
     while k - (num_apple + num_carrot + i) > 0:
         if i % 4 == 0:
-            answer += 1
+            answer += i
         i = i + 1
-        
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래 코드는 잘못된 부분이 없으니, solution함수만 수정하세요.

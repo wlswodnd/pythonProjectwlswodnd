@@ -13,9 +13,9 @@ def func_c(arr, n):
     return arr[n]
 
 def solution(scores, n):
-    score = func_a(scores)
-    func_(@@@)
-    answer = func_@@@(@@@)
+    score = func_c(scores,n)
+    func_b(scores)
+    answer = func_a(scores,score)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
