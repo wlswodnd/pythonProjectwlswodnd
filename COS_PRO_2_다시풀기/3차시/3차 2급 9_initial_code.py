@@ -1,8 +1,13 @@
 def solution(day, numbers):
     count = 0
     for number in numbers:
-        if number%2 != 0:
-            count += 1
+        if day%2 == 0:
+            if number%2 == 0:
+                count += 1
+        else:
+            if day%2 == 1:
+                if number%2 == 1:
+                    count += 1
     return count
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래 코드는 잘못된 부분이 없으니, solution함수만 수정하세요.
