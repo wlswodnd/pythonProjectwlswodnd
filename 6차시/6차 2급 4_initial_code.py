@@ -4,18 +4,21 @@
 def solution(cards):
     #여기에 코드를 작성해주세요.
     answer = 0
-    t = []
+    t = [0,0,0]
     a = 0
     s = ""
-    for i,g in enumerate(cards):
-        t.append(i[0])
+    for i in cards:
+        if i[0] == "blue" :
+            t[0] += 1
+        elif i[0] == "red" :
+            t[1] += 1
+        elif i[0] == "blak" :
+            t[2] += 1
         answer += int(i[1])
-        if i == s :
-            a += 1
-        else:
-            s = i
-
-        answer *=a
+    if t[0] == 3 or t[1] == 3 or t[2] == 3 :
+        return answer*3
+    elif t[0] == 2 or t[1] == 2 or t[2] == 2 :
+        return answer*2
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
