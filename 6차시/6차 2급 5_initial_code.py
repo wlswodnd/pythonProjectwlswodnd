@@ -1,10 +1,10 @@
 def solution(money, price, n):
     answer = 0
     empty_bottle = answer = money // price
-    while n == empty_bottle:
+    while n <= empty_bottle:
         empty_bottle = empty_bottle + n
         answer += 1
-        empty_bottle += 1
+        empty_bottle -= 1
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.

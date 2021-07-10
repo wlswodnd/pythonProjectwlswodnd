@@ -5,9 +5,9 @@ def solution(password):
             capital_count += 1
         elif p >= 'a' and p <= 'z':
             small_count += 1
-        elif p >= "1" and p <= "15":
+        elif p >= 1 and p <= 15:
             digit_count += 1
-    if capital_count >= 1 and small_count >= 2 and digit_count >= 1 :
+    if capital_count >= 1 and small_count >= 2 and digit_count >= 2 :
         answer = True
     else:
         answer = False

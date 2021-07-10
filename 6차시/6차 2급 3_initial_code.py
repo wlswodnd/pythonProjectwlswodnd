@@ -3,16 +3,16 @@
 
 def solution(people):
     #여기에 코드를 작성해주세요.
-    answer = [0 for _ in range(4)]  # 0을 4개 가지고 있는 리스트
-    for i in people :
-        if i >= 105 :
-            answer[3] += 1  # xl에 1 추가
-        elif i <= 105 and i >= 100 :    # 사이즈가 100이상 105 미만이면
-            answer[2] += 1  # l에 1 추가
-        elif i <= 100 and i >= 95 : # 사이즈가 95이상  100미만이면
-            answer[1] += 1  # m에 1 추가
-        elif i <= 95 :  # 사이즈가 95미만이면
-            answer[0] += 1  # s에 1 추가
+    answer = [0 for _ in range(4)]
+    for i in range(len(answer)+1):
+        if people[i] < 95 :
+            answer[0] += 1
+        elif 100 > people[i] >= 95 :
+            answer[1] += 1
+        elif 105 > people[i] >= 100 :
+            answer[2] += 1
+        elif 105 <= people[i] :
+            answer[3] += 1
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.

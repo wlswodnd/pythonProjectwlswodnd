@@ -1,10 +1,10 @@
 def solution(papers, K):
-    length = len(papers)    # 인원수
-    for i, paper in enumerate(papers):  # 필요한 종이를 하나씩 대입
-        K -= paper  # 필요한 만큼 K에서 빼기
-        if K < paper :  # K가 0보다 작으면
+    length = len(papers)
+    for i, paper in enumerate(papers):
+        K -= paper
+        if K < 0:
             length = i
-    return length   # 인원
+    return length
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.
 papers1 = [2, 4, 2, 3, 1]

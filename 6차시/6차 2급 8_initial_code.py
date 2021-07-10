@@ -24,8 +24,8 @@ def func_c(number, digit):
 def solution(number):
     answer = 0
     digit = func_b(number)
-    convert_number = func_c(number)
-    answer = func_a(number1, number2)
+    convert_number = func_c(number,digit)
+    answer = func_a(number,convert_number)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.

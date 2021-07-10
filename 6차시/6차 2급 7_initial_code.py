@@ -2,8 +2,8 @@ def solution(money, chairs, desks):
     answer = 0
     for chair in chairs:
         for desk in desks:
-            price = chair + desk
-            if answer < price and price <= money :
+            price = desk + chair
+            if answer < price and :
                 answer = price
     return answer
 
