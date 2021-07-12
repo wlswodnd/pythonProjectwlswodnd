@@ -36,5 +36,17 @@
     <ClCompile Include="AnotherLoalVal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LoalValHidVal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LoalValHideGlobalVal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticLocalVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
