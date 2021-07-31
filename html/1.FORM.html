@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      <!-- 주석 -->
+      <!--
+          1. form 태그
+              1. input 태그 : 입력 상자
+                  type="text" : 택스트입력 상자
+                  type="password" : 비밀번호 입력 상자
+                  type="radio" : 동그라미 버튼 [복수 선택 x]
+                  type="checkbox" : 네모 버튼 [복수 선택o]
+                  type="file" : 첨부파일 버튼
+                  type="color" : 색상 선택 버튼
+                  type="date" : 날짜 선택 버튼
+                  type="time" : 시간 선택 버튼
+              2. name 속성 : 상자의 이름
+
+      -->
+
+      <form>
+        이름 : <input type="text"> <br>
+        비밀번호 : <input type="password"> <br>
+        이메일수신 : <input type="radio" name="email"> 예
+                    <input type="radio" name="email" > 아니요 <br>
+        분야 <input type="checkbox" name="item1"> 뉴스
+            <input type="checkbox" name="item1"> 드라마
+            <input type="checkbox" name="item1"> 스포츠
+            <input type="checkbox" name="item1"> 엔터 <br>
+        첨부파일 : <input type="file"> <br>
+        날짜 : <input type="date"> <br>
+        시간 : <input type="time"> <br>
+        색상 : <input type="color"> <br>
+        버튼 : <input type="button" value="확인">
+              <input type="submit" value="등록">
+              <input type="reset" value="취소"> <br>
+        이메일 : <input type="text"> @
+                <select>
+                  <option> 직접 입력 </option>
+                  <option> naver.com </option>
+                  <option> gmail.com </option>
+                </select> <br>
+        긴글텍스트 : <br> <textarea rows="20" cols="50"></textarea>
+      </form>
+
+</body>
+</html>

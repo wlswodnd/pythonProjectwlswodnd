@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+</head>
+<body>
+      <h1> 회원 가입 </h1>
+    <table>
+      <tr>
+      <td>이이디</td> <td><input type="text"> </td>
+      </tr>
+
+      <tr>
+      <td>이름</td> <td><input type="text"></td>
+      </tr>
+
+      <tr>
+        <td>비밀번호</td> <td><input type="password"></td>
+      </tr>
+
+      <tr>
+        <td>비밀번호 확인</td> <td><input type="password"></td>
+      </tr>
+
+      <tr>
+        <td>전화번호</td> <td><input type="text" placeholder="010-1234-5678"></td>
+      </tr>
+
+      <tr>
+        <td>이메일</td> <td><input type="text"> @
+              <select>
+                <option>직접입력</option>
+                <option>naver.com</option>
+                <option>gmail.com</option>
+              </select> </td> <br>
+      </tr>
+
+      <tr>
+        <td>문자수신여부</td><td><input type="radio" name="email"> 예
+        <input type="radio" name="email"> 아니요 </td>
+      </tr>
+
+      <tr>
+        <td>가입경로</td><td><input type="checkbox" name="route"> 친구소개
+                <input type="checkbox" name="route"> 인터넷 검색
+                <input type="checkbox" name="route"> 블로그
+        <input type="checkbox" name="route"> 기타 </td>
+      </tr>
+
+      <tr>
+        <td> <input type="submit" value="회원가입" >
+      </tr>
+      </table> <!-- value="데이터 넣기 x / disabled : 사용금지 -->
+      <h1> 답변 글쓰기 </h1>
+      <table>
+      <tr>
+        <td>이름</td> <td> <input type="text"placeholder="홍길동"disabled ></td>
+      </tr>
+
+      <tr>
+        <td>제목</td> <td> <input type="text" value="Re : "></td>
+      </tr>
+
+      <tr>
+        <td>내용</td> <td><textarea rows="20" cols="80"></textarea></td>
+      </tr>
+
+      <tr>
+        <td> <input type="submit" value="전송" ></td>
+      </tr>
+    </table>
+</body>
+</html>
