@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>부트스프랩</title>
+
+    <!-- 부트스트랩 설치 -->
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+    <!-- 부트스트랩 : 미리 꾸며진 스타일 class="부트스트랩스타일명"
+    container : 박스[상자] 구역 만들기 중앙
+    table : 꾸며지 테이블 사용
+    table striped : 테이블 홀/짝수 행 구별 색상
+    form control : input 태그를 모양 꾸미기
+    -->
+    <!-- style "margin : 0 auto" : 해당 태그를 가운데 정렬
+                margin : 바깥여백
+         <div align="right"> : div 태그 오른쪽으로 정렬
+    -->
+
+
+    <div class="container"> <!-- 구분 짓기 태그 -->
+        <div align="right">
+            <a href="#"> <button class="btn btn-info">글쓰기</button> </a>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>번호</th> <th> 제목</th> <th> 작성자 </th> <th> 작성일 </th> <th> 조회수 </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td> <td> 제목위치</td> <td>유재석</td> <td> 2021-08-03</td> <td> 3</td>
+            </tr>
+
+            <tr>
+                <td>2</td> <td> 제목위치2</td> <td>강호동</td> <td> 2021-08-03</td> <td> 16</td>
+            </tr>
+
+            <tr>
+                <td>3</td> <td> 제목위치3</td> <td>신동엽</td> <td> 2021-08-03</td> <td> 43</td>
+            </tr>
+            </tbody>
+
+        </table>
+
+        <table style="margin:0 auto">
+            <tr>
+                <td>
+                    <select class="form-control">
+                        <option> 제목</option>
+                        <option> 내용</option>
+                        <option> 작성자</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="form-control" placeholder="검색어 입력">
+                </td>
+                <td>
+                    <input type="submit" value="검색" class="btn btn-light">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

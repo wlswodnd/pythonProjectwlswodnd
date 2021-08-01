@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <style>
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 모든 곳에 사용하는 스타일은 *을 사용한다
+*{
+    font-family: 'ImcreSoojin';
+}
+    </style>
+</head>
+<body>
+
+<!-- 상단 메뉴 -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">toggle</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href="메뉴.html"><img src="로고.png" style="width:100px; padding:5px"></a>
+        </div>
+
+        <div class="navbar-collapse collapse"id="navbar">
+            <ul class="nav navbar-nav">
+                <li style="font-size:20px"> <a href="#"> 공지사항  </a> </li>
+                <li style="font-size:20px"> <a href="문제1게시판.html"> 커뮤니티  </a> </li>
+                <li style="font-size:20px"> <a href="#"> 사진갤러리1  </a> </li>
+                <li style="font-size:20px"> <a href="#"> 사진갤러리2  </a> </li>
+                <li style="font-size:20px"> <a href="#"> 사진갤러리3 </a> </li>
+                <li style="font-size:20px"> <a href="#"> 사진갤러리4  </a> </li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li style="font-size:20px"> <a href="#"> 회원가입  </a> </li>
+                <li style="font-size:20px"> <a href="#"> 로그인  </a> </li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<-- 상단 메뉴 끝 -->
+<br><br><br><br><br>
+<div class="container">
+
+    <table class="table table-striped">
+    <tr>
+        <th>번호</th><th>제목</th><th>작성자</th><th>날짜</th><th>조회수</th>
+    </tr>
+
+    <tbody>
+    <tr>
+        <td>165</td><td>게시판제목1</td><td>사람1</td><td>08.01</td><td>23</td>
+    </tr>
+
+    <tr>
+        <td>164</td><td>게시판제목2</td><td>사람2</td><td>08.01</td><td>3</td>
+    </tr>
+
+    <tr>
+        <td>163</td><td>게시판제목3</td><td>사람3</td><td>08.01</td><td>17</td>
+    </tr>
+
+    <tr>
+        <td>162</td><td>게시판제목4</td><td>사람4</td><td>08.01</td><td>6</td>
+    </tr>
+    </tbody>
+    </table>
+    <div align="right">
+        <a href="글쓰기.html"> <button class="btn btn-info">글쓰기</button> </a>
+    </div>
+
+    <div align="center">
+        <ul class="pagination"> <!-- pagination : 게시판 페이지 번호 스타일 -->
+            <li> <a href="#"> < </a> </li>
+            <li> <a href="#">1</a> </li>
+            <li> <a href="#">2</a> </li>
+            <li> <a href="#">3</a> </li>
+            <li> <a href="#">4</a> </li>
+            <li> <a href="#">5</a> </li>
+            <li> <a href="#">6</a> </li>
+            <li> <a href="#">7</a> </li>
+            <li> <a href="#">8</a> </li>
+            <li> <a href="#">9</a> </li>
+            <li> <a href="#">10</a> </li>
+            <li> <a href="#"> > </a> </li>
+        </ul>
+
+    </div>
+</div>
+
+</body>
+</html>
